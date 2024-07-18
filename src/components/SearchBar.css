@@ -1,0 +1,131 @@
+.search-bar {
+    margin-top: -50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  body {
+    background-color: #f8f9fa;
+  }  
+  
+  .category-card {
+    border: none;
+    background-color: #fff;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .category-card.active {
+    background-color: #ff6b6b;
+    color: #fff;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .category-card i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .category-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-card .card-text {
+    font-size: 1rem;
+  }
+  
+  
+  .listing-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .listing-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .listing-header span {
+    color: #ff5a5f;
+    font-weight: bold;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-body p {
+    color: #6c757d;
+    margin: 0;
+  }
+  
+  .card-footer {
+    background-color: #fff;
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-footer .review {
+    font-weight: bold;
+  }
+  
+  .card-footer .review span {
+    color: #ffc107;
+  }
+  
+  .card-footer .heart {
+    color: #ff5a5f;
+  }
+  
+  .hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .hero-section .content {
+    padding: 20px;
+  }
+  
+  .hero-section .content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-section .content p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .hero-section .stats {
+    margin-top: 30px;
+  }
+  
+  .hero-section .stats .stat {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .hero-section .stats .stat h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .hero-section .stats .stat p {
+    font-size: 0.9rem;
+    color: #dc3545;
+  }
+  
